@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+	<html lang="ru">
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Maffin</title>
+			<link rel="stylesheet", href="{% static 'main/css/styles.css' %}">
+			<link rel="stylesheet", href="{% static 'main/css/textStyles.css' %}">
+		</head>
+		<body>
+			<div class = "wallpaper">
+				<header class = "hat">
+					<div class = "hatbar">
+						<div class="leftvoid"></div>
+						<div class="logo">
+							<img src="{% static 'main/img/pi.png' %}" alt="картинка" id="m">
+							<div class="logot">
+								<h1 class="logotext">Store</h1>
+							</div>
+						</div>
+						<div class="void">
+						</div>
+						<div class="allprop">
+							<div class="pupf"><a href="/lazy"><h1 class="actionstext">Все товары</h1></a></div>
+						</div>
+						<div class="signs">
+							<div class="zaeb">
+								<a href="/lazy"><img src="{% static 'main/img/lupa.jpg' %}" alt="картинка" id="lupa"></a>
+							</div>
+							<div class="zaeb">
+								<a href="/lazy"><img src="{% static 'main/img/colyaska.jpg' %}" alt="картинка" id="colyaska"></a>
+							</div>
+							<div class="zaeb">
+								<a href="/lazy"><img src="{% static 'main/img/man.jpg' %}" alt="картинка" id="man"></a>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="content">
+					<div class="incontent">
+						<div class="topbarflex">
+							<div class="topbar">
+								<div class="model">
+									<h1 class="modelname">MAFIN 12M Pro</h1>
+								</div>
+								<div class="contentlinks">
+									<div class="contentlinksbox">
+										<a href="/lazy"><p class="linktextor">Купить></p></a>
+										<a href="/lazy"><p class="linktext">Узнать больше></p></a>
+									</div>
+								</div>
+								<div class="imgtopbar">
+									<img src="{% static 'main/img/Phones.png' %}" alt="картинка">									
+								</div>							
+							</div>
+							<div class="topbar">
+								<div class="model">
+									<h1 class="modelname">MafinBook 15</h1>
+								</div>
+								<div class="contentlinks">
+									<div class="contentlinksbox">
+										<a href="/lazy"><p class="linktextor">Купить></p></a>
+										<a href="/lazy"><p class="linktext">Узнать больше></p></a>
+									</div>
+								</div>
+								<div class="imgtopbar">
+									<img src="{% static 'main/img/mafinbook.png' %}" alt="картинка" id="mafinbook">	
+								</div>							
+							</div>
+						</div>
+						<div class="bottombar">
+							<div class="bottombarimg">
+								<img src="{% static 'main/img/evgeniy.png' %}" alt="картинка" id="evgeniy">
+							</div>
+							<div class="bottombaractions">	
+								<a href="/lazy"><h1 class="actions">Новинки этого месяца ></h1></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="support">
+					<footer class="footik">
+						<nav class="footnav">
+							<div class="flexbox">
+								<div class="flexedfoot">
+									<a href="/support">
+										<div class="flexedflex">
+											<span class="navtext">
+												<h1 class="footertext">Поддержка</h1>
+											</span>
+										</div>
+									</a>
+								</div>
+								<div class="flexedfoot">
+									<a href="/about">
+										<div class="flexedflex">
+											<span class="navtext">
+												<h1 class="footertext">О нас</h1>
+											</span>
+										</div>
+									</a>	
+								</div>
+								<div class="flexedfoot">
+									<a href="/products">
+										<div class="flexedflex">
+											<span class="navtext">
+												<h1 class="footertext">Продукция</h1>
+											</span>
+										</div>
+									</a>
+								</div>
+								<div class="flexedfoot">
+									<a href="/connect">
+										<div class="flexedflex">
+											<span class="navtext">
+												<h1 class="footertext">Связаться с нами</h1>
+											</span>
+										</div>
+									</a>
+								</div>
+								<div class="flexedfoot">
+									<div class="warnerbox">
+										<span class="warner">
+											<h1 class="footertext2">Это тестовый сайт созданный для школьного проекта</h1>
+										</span>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</footer>
+				</div>
+			</div>
+		</body>
+	</html>
