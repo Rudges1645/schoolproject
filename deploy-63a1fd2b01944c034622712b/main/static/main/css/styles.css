@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wallpaper {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hat {
+    width: 100%;
+    display: inline;
+    height: 9%;
+}
+
+.hatbar {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0px 5px rgb(209, 206, 206);
+    display: flex;
+    flex-direction: row;
+}
+
+.leftvoid {
+    width: 5%;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#m {
+    width: 40%;
+    height: 60%;
+}
+
+.logot {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.void {
+    width: 45%;
+    height: 100%;
+}
+
+.allprop {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pupf {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgb(209, 206, 206);
+}
+
+.signs {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.zaeb {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#lupa {
+    width: 160%;
+    height: 160%;
+}
+
+#colyaska {
+    width: 160%;
+    height: 160%;
+}
+
+#man {
+    width: 160%;
+    height: 160%;
+}
+
+.content {
+    width: 100%;
+    height: 80%;
+}
+
+.incontent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topbarflex {
+    width: 100%;
+    height: 75%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topbar {
+    width: 47%;
+    height: 85%;
+    background-color: white;
+    box-shadow: 7px 5px rgb(209, 206, 206);
+}
+
+.model {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentlinks {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentlinksbox {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+
+.imgtopbar {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 40%;
+    height: 90%;
+}
+
+#mafinbook {
+    width: 80%;
+}
+
+.bottombar {
+    width: 95%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 7px 5px rgb(209, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#evgeniy {
+    width: 115%;
+    height: 85%;
+}
+
+.support {
+    width: 100%;
+    background-color: black;
+    height: 11%;
+}
+
+.footik {
+    width:100%;
+    height:100%;
+}
+
+.footnav {
+    width: 100%;
+    height:100%;
+}
+
+.flexbox {
+    width:100%;
+    height:100%;
+    display: flex;
+}
+
+.flexedfoot {
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.flexedflex {
+    display: flex;
+    justify-content: center;
+}
+
+.warnerbox {
+    display: flex;
+    flex-direction: column;
+}
